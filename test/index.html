@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jinux-tools</title>
+    <script src="../dist/jinux-tools.min.js"></script>
+</head>
+<body>
+    
+</body>
+<script>
+    var eleBody = document.getElementsByTagName('body')[0],
+        eleDiv = document.createElement('DIV');
+    var str = '<h2>jinux-tools工具函数库所包含的方法如下：</h2>';
+    for(var key in jinuxTools){
+        str += key+'<br />';
+    }
+    eleDiv.innerHTML = str;
+    eleBody.appendChild(eleDiv);
+</script>
+</html>

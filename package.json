@@ -1,0 +1,25 @@
+{
+  "name": "jinux-tools",
+  "version": "1.0.0",
+  "description": "javascript tools",
+  "main": "index.js",
+  "dependencies": {
+    "webpack-cli": "^3.0.8"
+  },
+  "devDependencies": {
+    
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinux7/jinux-tools.git"
+  },
+  "author": "jinux",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jinux7/jinux-tools/issues"
+  },
+  "homepage": "https://github.com/jinux7/jinux-tools#readme"
+}
