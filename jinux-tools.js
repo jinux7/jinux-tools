@@ -25,7 +25,9 @@ import {
     cookie_set,
     cookie_get,
     cookie_unset
-    } from './src/cookie';
+} from './src/cookie';
+// 导入日期处理
+import { date_moment } from './src/date'
 
 (function(window,undefined){
     var jinuxTools = {
@@ -41,10 +43,14 @@ import {
         type_isEmail,
         type_isIP,
         type_isURL,
+
         object_deepClone,
+
         cookie_set,
         cookie_get,
-        cookie_unset
+        cookie_unset,
+
+        date_moment
     };
     if (typeof module !== 'undefined' && typeof exports === 'object') {
         module.exports = jinuxTools;
