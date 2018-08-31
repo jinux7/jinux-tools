@@ -37,6 +37,7 @@ const date_moment = {
           m = date.getMonth()+1>9?(date.getMonth()+1):('0'+(date.getMonth()+1));
       arr.push(y + splitStr + m + splitStr + '01');
       _m = date.getMonth();
+      date.setDate(1);
       date.setMonth(_m + 1);
       date.setDate(0);
       d = date.getDate();
